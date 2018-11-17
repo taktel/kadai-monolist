@@ -57,3 +57,8 @@ gem 'rakuten_web_service', '1.5.0'
 
 #環境変数用Gem
 gem 'dotenv-rails'
+
+#for Heroku
+group :production do
+  gem 'pg', '0.21.0'
+end
